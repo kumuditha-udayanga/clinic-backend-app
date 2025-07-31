@@ -12,7 +12,6 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 @RestController
-@CrossOrigin(origins = {"http://localhost:3000"}, allowCredentials = "true")
 public class PDFController {
     private static final String UPLOAD_DIR = "./uploads/";
     @PostMapping("/upload")
